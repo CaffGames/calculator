@@ -4,11 +4,11 @@ my python calculator
 
 current operations are:
 
-addition,
-subtraction,
-multiplication,
-division,
-exponents,
-square root
-nth root
+addition <br />
+subtraction <br />
+multiplication <br />
+division <br />
+exponents <br />
+square root <br />
+nth root <br />
 logarithm
