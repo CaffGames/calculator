@@ -56,7 +56,7 @@ while True:
             print(x, "^", y, "=", exponent(x, y))
 
         elif choice == "nth root":
-            print(x, "^√", y, "=", nthroot(x, y))
+            print("^", x, "√", y, "=", nthroot(x, y))
 
         elif choice == "logarithm":
             print(f'log({x} [, {y}]) = ', log(x, y)) #THANK YOU CAFF!!!
