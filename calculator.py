@@ -22,8 +22,7 @@ def nthroot(x, y):
     return pow(y,(1/x))
 
 def log(x, y):
-    return math.log(x, y)
-
+    return math.log(y, x)
 
 print("Select an operation:\n")
 print("   addition\n   subtraction\n   multiplication\n   division\n   exponents\n   square root\n   nth root\n   logarithm\n")

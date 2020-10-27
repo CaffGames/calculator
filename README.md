@@ -10,3 +10,5 @@ multiplication,
 division,
 exponents,
 square root
+nth root
+logarithm
