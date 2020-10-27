@@ -30,7 +30,7 @@ print("   addition\n   subtraction\n   multiplication\n   division\n   exponents
 
 
 while True:
-    # User imput
+    # User input
     choice = input("Enter operation's name: ")
 
     # Check if choice is one of the options
@@ -57,7 +57,7 @@ while True:
             print(x, "^√", y, "=", nthroot(x, y))
 
         elif choice == "logarithm":
-            print("log", "(", x, "[", " ", y, "]", ")", "=", log(x, y)) #FIX ME! FIX ME! FIX ME! FIX ME! FIX ME! 
+            print(f'log({x} [, {y}]) = ', log(x, y)) #el fixed.
 
         else:
             print("Invalid Input")
