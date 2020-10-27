@@ -1,5 +1,7 @@
 import math
 
+"pi" = math.pi
+
 def add(x, y):
     return x + y
 
@@ -41,28 +43,28 @@ while True:
         y = float(input("Enter second number: "))
 
         if choice == "addition":
-            print(x, "+", y, "=", add(x, y))
+            print("   ", x, "+", y, "=", add(x, y))
 
         elif choice == "subtraction":
-            print(x, "-", y, "=", subtract(x, y))
+            print("   ", x, "-", y, "=", subtract(x, y))
 
         elif choice == "multiplication":
-            print(x, "*", y, "=", multiply(x, y))
+            print("   ", x, "*", y, "=", multiply(x, y))
 
         elif choice == "division":
-            print(x, "/", y, "=", divide(x, y))
+            print("   ", x, "/", y, "=", divide(x, y))
 
         elif choice == "exponents":
-            print(x, "^", y, "=", exponent(x, y))
+            print("   ", x, "^", y, "=", exponent(x, y))
 
         elif choice == "nth root":
-            print("^", x, "√", y, "=", nthroot(x, y))
+            print("   ", "^", x, "√", y, "=", nthroot(x, y))
 
         elif choice == "logarithm":
-            print(f'log({x} [, {y}]) = ', log(x, y)) #THANK YOU CAFF!!!
+            print("   ", f'log({x} [, {y}]) = ', log(x, y)) #THANK YOU CAFF!!!
 
         elif choice == "modulo":
-            print(x, "%", y, "=", modulo(x, y))
+            print("   ", x, "%", y, "=", modulo(x, y))
 
         else:
             print("Invalid Input")
