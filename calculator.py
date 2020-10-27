@@ -24,8 +24,11 @@ def nthroot(x, y):
 def log(x, y):
     return math.log(y, x)
 
+def modulo(x, y):
+    return x % y
+
 print("Select an operation:\n")
-print("   addition\n   subtraction\n   multiplication\n   division\n   exponents\n   square root\n   nth root\n   logarithm\n")
+print("   addition\n   subtraction\n   multiplication\n   division\n   exponents\n   square root\n   nth root\n   logarithm\n   modulo\n")
 
 
 while True:
@@ -33,7 +36,7 @@ while True:
     choice = input("Enter operation's name: ")
 
     # Check if choice is one of the options
-    if choice in ("addition", "subtraction", "multiplication", "division", "exponents", "nth root", "logarithm"):
+    if choice in ("addition", "subtraction", "multiplication", "division", "exponents", "nth root", "logarithm", "modulo"):
         x = float(input("Enter first number: "))
         y = float(input("Enter second number: "))
 
@@ -56,7 +59,10 @@ while True:
             print(x, "^√", y, "=", nthroot(x, y))
 
         elif choice == "logarithm":
-            print(f'log({x} [, {y}]) = ', log(x, y)) #el fixed.
+            print(f'log({x} [, {y}]) = ', log(x, y)) #THANK YOU CAFF!!!
+
+        elif choice == "modulo":
+            print(x, "%", y, "=", modulo(x, y))
 
         else:
             print("Invalid Input")
