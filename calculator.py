@@ -22,7 +22,7 @@ def nthroot(x, y):
     return pow(y,(1/x))
 
 def log(x, y):
-    return log(x)/log(y)
+    return log(x, y)
 
 
 print("Select an operation:\n")
