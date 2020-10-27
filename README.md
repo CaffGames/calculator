@@ -1,4 +1,3 @@
-#calculator
 my python calculator
 
 
