@@ -56,8 +56,17 @@ while True:
     #2 choice ###################################
     # Check if choice is one of the options
     if choice in ("addition", "subtraction", "multiplication", "division", "exponents", "nth root", "logarithm", "modulo"):
-        x = float(input("Enter first number: "))
-        y = float(input("Enter second number: "))
+        x = str(input("Enter first number: "))
+        y = str(input("Enter second number: "))
+
+        if x == "pi":
+            x = float(math.pi)
+
+        if y == "pi":
+            x = float(math.pi)
+
+        x = float(x)
+        y = float(y)
 
         if choice == "addition":
             print(" ", x, "+", y, "=", add(x, y))
