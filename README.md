@@ -10,4 +10,10 @@ division <br />
 exponents <br />
 square root <br />
 nth root <br />
-logarithm
+logarithm <br />
+modulo <br />
+sine <br />
+cosine <br />
+tangent <br />
+cotangent <br />
+secant
